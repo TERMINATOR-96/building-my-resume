@@ -68,7 +68,7 @@ body {
 
 section {
     width: 100%;
-    height: 75vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -138,22 +138,26 @@ section:nth-child(2n) {
     font-size: 1.0rem;
 }
 
+/* skills section start */
 .skills-display {
-    width: 70%;
-    /* height: 100px;
-    border: 2px solid black; */
+    width: 80%;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: -5vh;
+    margin-top: -6vh;
+    margin-bottom: 8vh;
+    justify-content: space-around;
 }
 
 .skill-progress {
-    width: 7rem;
+    width: 40%;
+    margin: 20px;
     height: 1.4rem;
-    background-color: white;
+    overflow: hidden;
+    border-style: groove;
     border-radius: 0.8rem;
-    /* border: 2px solid black; */
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .skill-progress>div {
@@ -162,11 +166,12 @@ section:nth-child(2n) {
 
 .skill-name {
     padding-top: 1.8px;
+    padding-right: 5px;
 }
 
 .skill-name span {
     color: white;
-    font-size: 1rem;
+    font-size: 0.9rem;
     margin-left: 10px;
     align-items: center;
 }
@@ -181,10 +186,50 @@ section:nth-child(2n) {
 }
 
 .mb-blue {
-    background-color: #2857a4;
+    background-color: blue;
+}
+
+.mb-orange {
+    background-color: orange;
+}
+
+.mb-red {
+    background-color: red;
+}
+
+.mb-purple {
+    background-color: purple;
+}
+
+.mb-green {
+    background-color: green;
+}
+
+.mb-crimson {
+    background-color: crimson;
+}
+
+.mb-violet {
+    background-color: violet;
 }
 
 .eighty-five-percent {
     width: 85%;
     height: inherit;
 }
+
+.ninety-percent {
+    width: 90%;
+    height: inherit;
+}
+
+.eighty-percent {
+    width: 80%;
+    height: inherit;
+}
+
+.seventy-percent {
+    width: 70%;
+    height: inherit;
+}
+/* skills section end */
