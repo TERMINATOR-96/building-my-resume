@@ -66,13 +66,48 @@ body {
     box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
 }
 
+section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section:nth-child(2n+1) {
+    background-color: white;
+}
+
+section:nth-child(2n) {
+    background-color: lightgrey;
+}
+
+.section-heading {
+    width: auto;
+    padding: 20px 10px 10px;
+    font-weight: 400;
+}
+
+.section-heading span {
+    font-size: 25px;
+    color: #2857a4;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;
+}
+
 #about {
     height: auto;
     width: 100%;
     position: relative;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: 500;
+    font-size: 1.0rem;
     text-align: center;
+}
+
+#about p {
+    padding-top: 5vh;
+    padding-bottom: 5vh;;
 }
 
 #my-image {
@@ -86,4 +121,115 @@ body {
     height: 100%;
     width: 100%;
     border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 1px 1px 10px 2px lightgrey;
 }
+
+#about-para {
+    padding: 10px;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:justify;
+    color: grey;
+    line-height: 28px;
+    font-weight: 100;
+    font-size: 1.0rem;
+}
+
+/* skills section start */
+.skills-display {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -6vh;
+    margin-bottom: 8vh;
+    justify-content: space-around;
+}
+
+.skill-progress {
+    width: 40%;
+    margin: 20px;
+    height: 1.4rem;
+    overflow: hidden;
+    border-style: groove;
+    border-radius: 0.8rem;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.skill-progress>div {
+    border-radius: 20px 0px 0px 20px;
+}   
+
+.skill-name {
+    padding-top: 1.8px;
+    padding-right: 5px;
+}
+
+.skill-name span {
+    color: white;
+    font-size: 0.9rem;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.text-highlight {
+    color: #2857a4;
+    font-weight: 600;
+}
+
+.mb75px {
+    margin-bottom: 75px;
+}
+
+.mb-blue {
+    background-color: blue;
+}
+
+.mb-orange {
+    background-color: orange;
+}
+
+.mb-red {
+    background-color: red;
+}
+
+.mb-purple {
+    background-color: purple;
+}
+
+.mb-green {
+    background-color: green;
+}
+
+.mb-crimson {
+    background-color: crimson;
+}
+
+.mb-violet {
+    background-color: violet;
+}
+
+.eighty-five-percent {
+    width: 85%;
+    height: inherit;
+}
+
+.ninety-percent {
+    width: 90%;
+    height: inherit;
+}
+
+.eighty-percent {
+    width: 80%;
+    height: inherit;
+}
+
+.seventy-percent {
+    width: 70%;
+    height: inherit;
+}
+/* skills section end */
