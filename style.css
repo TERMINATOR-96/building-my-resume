@@ -1074,7 +1074,7 @@ button:focus {
         text-align:justify;
         color:#403066;
         line-height: 25px;
-        font-weight: 50;
+        font-weight: bold;
         font-size: 1.0rem;
     }
 
