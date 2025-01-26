@@ -11,6 +11,11 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+:root {
+    --animate-duration: 800ms;
+    --animate-delay: 1s;
+  }
+
 /*Body Header*/
 #body-header {
     height: 56vh;
@@ -1048,6 +1053,20 @@ button:focus {
         background-position: center;
         background-attachment: fixed;
         padding-top: 1.2rem;
+    }
+
+    .horizontal-list {
+        font-size: 15px;
+        list-style: none;
+        padding-left: 0px;
+        margin: 0px;
+    }
+
+    .social-icons li a i {
+        /* color: light; */
+        padding: 8px;
+        font-size: 1.2rem;
+        border-radius: 50%;
     }
 
     #my-image {
