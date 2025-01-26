@@ -1219,4 +1219,44 @@ button:focus {
     .skill-name {
         font-size: small;
     }
+
+    #contact-container {
+        margin-top: 0.5vh;
+        display: flex;
+    }
+
+    #contact-form-container {
+        width: 45%;
+        margin-left: 4%;        
+    }
+
+    #contact-form {
+        width: 90%;
+        margin-left: -8%;
+    }
+
+    #my-details-container{
+        width: 45%;
+        text-align: center;
+        margin-left: 5px;
+        font-size: small;
+        margin-right: -25%;
+    }
+    
+    #my-details-container p {
+        size: small;
+        color: #d9dcdd;
+        font-size: small;
+        text-align: justify;
+    }
+
+    .my-details-info-container span{
+        font-size: 10px;
+    }
+
+    #contact .social-icons li a i {
+        font-size: 1rem;
+        margin: 20px 10px 10px;
+        padding: 10px 14px 1px 10px;
+    }
 }
