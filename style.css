@@ -128,7 +128,7 @@ section:nth-child(2n) {
     height: 12rem;
     width: 12rem;
     margin: auto;
-    margin-top: -17vh;
+    margin-top: -14vh;
 }
 
 #my-image img {
@@ -796,7 +796,7 @@ button:focus {
 /*Tablet view end*/
 
 /*Mobile view start*/
-@media screen and (min-width: 413px) and (max-width: 600px) {
+@media screen and (min-width: 432px) and (max-width: 600px) {
     #name-social-container {
         margin-top: 12vh;
     }
@@ -1039,7 +1039,7 @@ button:focus {
 }
 /*Mobile view end*/
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 431px) {
     #body-header {
         height: 53vh;
         opacity: 0.8;
@@ -1094,7 +1094,7 @@ button:focus {
         width: 0;
         border: 3px dashed #0096fa6b;
         top: 5%;
-        left: 1.8%;
+        left: 1.4%;
     }
 
     .timeline-box:nth-child(1)::after {
@@ -1163,7 +1163,7 @@ button:focus {
         width: 0;
         border: 3px dashed #0096fa6b;
         top: 7%;
-        left: 2%;
+        left: 1.5%;
     }
     
     .edu-timeline-traveller {
