@@ -353,7 +353,7 @@ section:nth-child(2n) {
     content: '';
     position: absolute;
     top: 11vh;
-    right: -12.8%;
+    right: -14%;
     border-radius: 50%;
     width: 0.5rem;
     height: 0.5rem;
@@ -599,7 +599,7 @@ button:focus {
     content: '';
     position: absolute;
     top: 4.5vh;
-    right: -12.8%;
+    right: -14%;
     border-radius: 50%;
     width: 0.5rem;
     height: 0.5rem;
