@@ -796,7 +796,7 @@ button:focus {
 /*Tablet view end*/
 
 /*Mobile view start*/
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 413px) and (max-width: 600px) {
     #name-social-container {
         margin-top: 12vh;
     }
@@ -1038,3 +1038,185 @@ button:focus {
     }
 }
 /*Mobile view end*/
+
+@media screen and (max-width: 412px) {
+    #body-header {
+        height: 53vh;
+        opacity: 0.8;
+        background-image: url(image/macbook_mouse.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        padding-top: 1.2rem;
+    }
+
+    #my-image {
+        height: 12rem;
+        width: 12rem;
+        margin: auto;
+        margin-top: -12vh;
+    }
+    
+    #my-image img {
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+        border: 3px solid white;
+        box-shadow: 1px 1px 10px 2px lightgrey;
+    }
+
+    #about-para {
+        padding: 2px;
+        width: 70%;
+        height: 100%;
+        margin: auto;
+        font-family:Arial, Helvetica, sans-serif;
+        text-align:justify;
+        color:#403066;
+        line-height: 25px;
+        font-weight: 50;
+        font-size: 1.0rem;
+    }
+
+    .timeline-box {
+        left: 12% !important;
+        width: 80%;
+        padding-top: 2.6vh;
+    }
+
+    .timeline-box::after {
+        left: -18% !important;
+    }
+
+    .timeline-divider {
+        position: absolute;
+        height: 80%;
+        width: 0;
+        border: 3px dashed #0096fa6b;
+        top: 5%;
+        left: 1.8%;
+    }
+
+    .timeline-box:nth-child(1)::after {
+        content: '';
+        position: absolute;
+        top: 5vh;
+        right: -12.8%;
+        border-radius: 50%;
+        width: 0.5rem;
+        height: 0.5rem;
+        background-color: red;
+        z-index: 1;
+    }
+    
+    .timeline-box:nth-child(2)::after {
+        content: '';
+        position: absolute;
+        top: 17%;
+        right: 105.8%;
+        border-radius: 50%;
+        width: 0.5rem;
+        height: 0.5rem;
+        background-color: red;
+        z-index: 1;
+    }
+
+    .timeline-box:nth-child(3)::after {
+        content: '';
+        position: absolute;
+        top: 4.5vh;
+        right: -12.8%;
+        border-radius: 50%;
+        width: 0.5rem;
+        height: 0.5rem;
+        background-color: red;
+        z-index: 1;
+    }
+
+    .timeline-box:nth-child(4)::after {
+        content: '';
+        position: absolute;
+        top: 22%;
+        right: 105.8%;
+        border-radius: 50%;
+        width: 0.5rem;
+        height: 0.5rem;
+        background-color: red;
+        z-index: 1;
+    }
+
+    .timeline-traveller {
+        position: sticky;
+        top: 40%;
+        margin-top: -1.8vh;
+        transform: rotate(90deg);
+        z-index: 2;
+    }
+
+    #education {
+        margin-top: -15vh;
+    }
+    
+    .edu-timeline-divider {
+        position: absolute;
+        height: 70%;
+        width: 0;
+        border: 3px dashed #0096fa6b;
+        top: 7%;
+        left: 2%;
+    }
+    
+    .edu-timeline-traveller {
+        position: sticky;
+        top: 50%;
+        margin-top: -1.8vh;
+        transform: rotate(90deg);
+        z-index: 2;
+    }
+    
+    #education .timeline-box:nth-child(2n) {
+        left: 53%;
+    }
+    
+    #education .timeline-box:nth-child(2n+1)::after {
+        content: '';
+        position: absolute;
+        top: 4.5vh;
+        right: -12.8%;
+        border-radius: 50%;
+        width: 0.5rem;
+        height: 0.5rem;
+        background-color: red;
+        z-index: 1;
+    }
+    
+    #education .timeline-box:nth-child(2n)::after {
+        content: '';
+        position: absolute;
+        top: 20%;
+        right: 105.8%;
+        border-radius: 50%;
+        width: 0.5rem;
+        height: 0.5rem;
+        background-color: red;
+        z-index: 1;
+    }
+
+    #education .work-duration {
+        padding-top: 2vh;
+    }
+
+    .portfolio-image-container {
+        height: 250px;
+        max-width: 300px;
+        overflow: hidden;
+        margin: 10px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .skill-name {
+        font-size: small;
+    }
+}
