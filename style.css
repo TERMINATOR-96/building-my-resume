@@ -11,6 +11,11 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+:root {
+    --animate-duration: 800ms;
+    --animate-delay: 1s;
+  }
+
 /*Body Header*/
 #body-header {
     height: 56vh;
