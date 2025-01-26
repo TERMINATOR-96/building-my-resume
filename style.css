@@ -1055,6 +1055,20 @@ button:focus {
         padding-top: 1.2rem;
     }
 
+    .horizontal-list {
+        font-size: 15px;
+        list-style: none;
+        padding-left: 0px;
+        margin: 0px;
+    }
+
+    .social-icons li a i {
+        /* color: light; */
+        padding: 8px;
+        font-size: 1.2rem;
+        border-radius: 50%;
+    }
+
     #my-image {
         height: 12rem;
         width: 12rem;
